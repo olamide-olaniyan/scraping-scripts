@@ -1,0 +1,1 @@
+This is a store for scripts I used for scraping data from different web sources.
