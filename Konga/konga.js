@@ -10,7 +10,7 @@ import { exit } from "process";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Function to extract the last numbers after the dash in the URL (ignores ?page=1 if present)
+// Function to extract the last numbers after the dash in the URL (ignores ?page=1 if present).
 function extractCategoryId(url) {
   const match = url.match(/-(\d+)(?:\?.*)?$/);
   return match ? match[1] : null;

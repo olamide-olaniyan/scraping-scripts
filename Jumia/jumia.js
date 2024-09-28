@@ -208,7 +208,7 @@ async function scrapeAllPages(baseUrl, lastPageNumber, batchSize = 100) {
 
       console.log(`Scraped ${allProducts.length} products from ${baseUrl}`);
 
-      // Add the products to the combined list
+      // Add the products to the combined list.
       combinedProducts = combinedProducts.concat(allProducts);
     }
 
